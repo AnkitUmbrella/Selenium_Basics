@@ -47,7 +47,7 @@ public class GoogleTest {
 		
 	}
 	
-	@Test ()
+	@Test () // Test with no priority
 	public void Test2() {
 		System.out.println("title 2");
 		

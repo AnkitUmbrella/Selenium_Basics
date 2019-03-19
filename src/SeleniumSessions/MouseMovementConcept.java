@@ -22,10 +22,10 @@ public class MouseMovementConcept {
 		
 		
 		
-		//Actions class
+		//Actions classes
 		Actions a= new Actions(driver);
 		a.moveToElement(driver.findElement(By.linkText("Flights"))).build().perform();
-		Thread.sleep(3000);
+		Thread.sleep(3000); // thread sleep
 		a.click().build().perform();
 		
 		
