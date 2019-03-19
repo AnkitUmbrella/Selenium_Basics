@@ -23,12 +23,12 @@ public class BrokenLinks {
 		driver.get(linkurl); //Enter Url
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-		List<WebElement> links= driver.findElements(By.tagName("a"));
+		List<WebElement> links= driver.findElements(By.tagName("a")); // to get the links size
 		 System.out.println(links.size());
 		 
 		 for(int i=0; i<links.size();i++) {
 			  WebElement ele= links.get(i);
-			  String attributes= ele.getAttribute("href");
+			  String attributes= ele.getAttribute("href"); // to get attributes
 			  
 		 	 
 		 verifylink(attributes);
