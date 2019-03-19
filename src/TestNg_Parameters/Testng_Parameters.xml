@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" >
+<test name="TestNg_Parameters_1">
+
+<parameter name="Email" value="admin"/>
+  <parameter name="Password" value="admin123"/>
+<parameter name="Browser" value="Mozilla" />
+<classes>
+<class name="TestNg_Parameters.TestNg_Parameters">
+</class>
+</classes>
+</test>
+
+
+
+<test name="TestNg_Parameters_2">
+<parameter name="Email" value="test123"/>
+<parameter name="Password" value="test123"/>
+
+<parameter name="Browser" value="Mozilla" />
+<classes>
+<class name="TestNg_Parameters.TestNg_Parameters">
+</class>
+</classes>
+</test>
+</suite>

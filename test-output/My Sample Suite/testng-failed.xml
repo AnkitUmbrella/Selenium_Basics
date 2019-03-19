@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Sample Suite]">
+  <test thread-count="5" name="Learning TestNg(failed)">
+    <classes>
+      <class name="TestNg_Basics.TestNgFeatures">
+        <methods>
+          <include name="search"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestNg_Basics.TestNgFeatures -->
+      <class name="TestNg_Basics.TestNg_Basics">
+        <methods>
+          <include name="dologin"/>
+          <include name="Searchtext"/>
+          <include name="deletecookies"/>
+          <include name="logout"/>
+          <include name="terminate"/>
+          <include name="setup"/>
+          <include name="enterurl"/>
+          <include name="closewindow"/>
+          <include name="Browser"/>
+        </methods>
+      </class> <!-- TestNg_Basics.TestNg_Basics -->
+    </classes>
+  </test> <!-- Learning TestNg(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->

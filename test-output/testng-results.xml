@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65032" started-at="2019-03-19T08:03:11Z" finished-at="2019-03-19T08:04:16Z">
+    <groups>
+      <group name="random">
+        <method signature="GoogleTest.Test1()[pri:3, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Test1" class="TestNg_Basics.GoogleTest"/>
+      </group> <!-- random -->
+      <group name="launch">
+        <method signature="GoogleTest.Button()[pri:1, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Button" class="TestNg_Basics.GoogleTest"/>
+        <method signature="GoogleTest.LaunchUrl()[pri:4, instance:TestNg_Basics.GoogleTest@77f99a05]" name="LaunchUrl" class="TestNg_Basics.GoogleTest"/>
+      </group> <!-- launch -->
+      <group name="click">
+        <method signature="GoogleTest.Text()[pri:2, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Text" class="TestNg_Basics.GoogleTest"/>
+      </group> <!-- click -->
+    </groups>
+    <test name="Default test" duration-ms="65032" started-at="2019-03-19T08:03:11Z" finished-at="2019-03-19T08:04:16Z">
+      <class name="TestNg_Basics.GoogleTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Setup" is-config="true" duration-ms="12137" started-at="2019-03-19T08:03:11Z" finished-at="2019-03-19T08:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Test2" duration-ms="8" started-at="2019-03-19T08:03:23Z" finished-at="2019-03-19T08:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestNg_Basics.GoogleTest@77f99a05]" name="TearDown" is-config="true" duration-ms="2110" started-at="2019-03-19T08:03:23Z" finished-at="2019-03-19T08:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Setup" is-config="true" duration-ms="8594" started-at="2019-03-19T08:03:25Z" finished-at="2019-03-19T08:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Button()[pri:1, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Button" duration-ms="119" started-at="2019-03-19T08:03:34Z" finished-at="2019-03-19T08:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Button -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestNg_Basics.GoogleTest@77f99a05]" name="TearDown" is-config="true" duration-ms="2065" started-at="2019-03-19T08:03:34Z" finished-at="2019-03-19T08:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Setup" is-config="true" duration-ms="9133" started-at="2019-03-19T08:03:36Z" finished-at="2019-03-19T08:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Text()[pri:2, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Text" duration-ms="271" started-at="2019-03-19T08:03:45Z" finished-at="2019-03-19T08:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Text -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestNg_Basics.GoogleTest@77f99a05]" name="TearDown" is-config="true" duration-ms="2195" started-at="2019-03-19T08:03:45Z" finished-at="2019-03-19T08:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Setup" is-config="true" duration-ms="11749" started-at="2019-03-19T08:03:48Z" finished-at="2019-03-19T08:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Test1()[pri:3, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Test1" duration-ms="2" started-at="2019-03-19T08:03:59Z" finished-at="2019-03-19T08:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestNg_Basics.GoogleTest@77f99a05]" name="TearDown" is-config="true" duration-ms="2668" started-at="2019-03-19T08:03:59Z" finished-at="2019-03-19T08:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestNg_Basics.GoogleTest@77f99a05]" name="Setup" is-config="true" duration-ms="10427" started-at="2019-03-19T08:04:02Z" finished-at="2019-03-19T08:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="LaunchUrl()[pri:4, instance:TestNg_Basics.GoogleTest@77f99a05]" name="LaunchUrl" duration-ms="11" started-at="2019-03-19T08:04:12Z" finished-at="2019-03-19T08:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestNg_Basics.GoogleTest@77f99a05]" name="TearDown" is-config="true" duration-ms="3476" started-at="2019-03-19T08:04:12Z" finished-at="2019-03-19T08:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestNg_Basics.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

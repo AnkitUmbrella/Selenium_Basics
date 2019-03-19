@@ -1,0 +1,51 @@
+TestNg-> Also called TDD Framework (Test Driven Development) in agile.
+
+-> Testing New generation framework
+-> Unit testing framework
+-> Generate HTML Reports
+-> Purpose-> Design Test cases in systematic way
+-> Open source jar file.
+-> Gives annotations, Priorities, Sequence of testcases
+-> Dependency Feature
+-> Also called as Java Unit Testing Framework
+-> Grouping of Testcases (when there are many testcases)
+-> DataProvider-> Multiple set of data.
+
+
+-> If we don't provide any priority to one of the test case in class then that class and that method will be executed first
+Executing testng with cmd
+Java –cp  "C:\Users\User\Desktop\Guru99\TestProject\lib\*;
+  C:\Users\User\Desktop\Guru99\TestProject\bin" org.testng.TestNG testng.xml
+  
+Download testng and add Testng library in javabuild-> add library
+<test name="EXECUTING ALL TESTS"  preserve-order="true"> //If you want to run test sequentially in testng.xml 
+use preserve order= true
+    <classes>
+        <class name="com.crm.qa.testcases.LoginPageTest" ></class> 
+          
+          <class name="com.crm.qa.testcases.HomepageTest" ></class>
+         
+          <class name="com.crm.qa.testcases.ContactspageTest" ></class>  
+    </classes>
+</test>
+-> Annotations in TestNg
+
+In testng.xml
+If we usee <parallel="methods", thread-count=2> thenit will execute parallely hence execution will be fast
+foer e.g-> WITHOUT PARALLEL
+@beforemethod
+@test1
+@aftermethod
+@beforemethod
+@test2
+@aftermethod
+
+WITH PARALLEL
+@beforemethod -Thread 1
+@beforemethod- thread 2
+@test1
+@test2
+@aftermethod
+@aftermethod
+
+
